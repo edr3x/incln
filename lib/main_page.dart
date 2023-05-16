@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:instcln/constants/global_variables.dart';
 import 'package:instcln/home_page.dart';
 
 import 'blank_page.dart';
@@ -56,6 +57,7 @@ class _MainPageState extends State<MainPage> {
         },
       ),
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: GlobalVariables.backgroundColor,
         type: BottomNavigationBarType.fixed,
         showSelectedLabels: false,
         showUnselectedLabels: false,
